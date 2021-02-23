@@ -1,0 +1,226 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* 浏览器都有自己的默认样式，以上部分为清除浏览器默认样式 */
+.photo {
+    width: 100%;
+    height: 820px;
+    background: url(http://image.uc.cn/s/wemedia/s/upload/2020/d3f71a2dd5f24c6ea07d650f1220ff07.jpg);
+}
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+
+a.qq {
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    cursor: pointer;
+    font-size: 0;
+}
+
+a.qq > img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+a.qq > span {
+    vertical-align: middle;
+    font-size: 36px;
+    line-height: 43px;
+    margin-left: 6px;
+}
+
+ul.right {
+    float: right;
+}
+
+ul.right > li {
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    cursor: pointer;
+}
+
+.bright {
+    width: 95px;
+    height: 34px;
+}
+
+.bright > img {
+    width: 100%;
+    height: 100%;
+}
+
+ul.right > li.language {
+    font-size: 0;
+    margin-top: 30px;
+}
+
+ul.right > li.language span {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+ul.right > li.language .arrow {
+    vertical-align: middle;
+    width: 12px;
+    height: 8px;
+}
+
+ul.right > li.contact {
+    margin-top: 30px;
+}
+
+/*上面是QQ注册页头部CSS*/
+
+.right1 {
+    width: 480px;
+    position: absolute;
+    top: 104px;
+    right: 240px;
+}
+.welcome {
+    height: 62px;
+    font-size: 44px;
+    line-height: 62px;
+    color: #000000;
+}
+.sign {
+    margin-top: 13px;
+    display: flex;
+    height: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign .everyday {
+    height: 34px;
+    width: 252px;
+    line-height: 34px;
+    font-size: 27px;
+    color: #333333;
+}
+.sign .free {
+    height: 29px;
+    width: 96px;
+    line-height: 29px;
+    font-size: 23px;
+    color: #359EFF;
+}
+.right1 .nick input,.right1 .password input,.phonenumber input {
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 17px;
+    font-size: 19px;
+    line-height: 20px;
+    color: #AAAAAA;
+    outline: none;
+}
+.right1 .nick input {
+    width: 480px;
+    margin-top: 63px;
+}
+.right1 .password input {
+    width: 480px;
+    margin-top: 32px;
+}
+.phone {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    margin-top: 32px;
+}
+.selector,.phonenumber input {
+    height: 52px;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.selector {
+    width: 154px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+    font-size: 20px;
+    line-height: 43px;
+    color: #000000;
+    outline: none;
+}
+.phonenumber input {
+    width: 307px;
+}
+.notice {
+    margin-top: 10px;
+    line-height: 14px;
+    font-size: 13px;
+    color: #999999;
+}
+.btn {
+    width: 480px;
+    height: 60px;
+    background: #3487FF;
+    border: 1px solid #3083FF;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 8px rgba(24, 95, 255, 0.1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 47px;
+}
+.agree {
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    color: #AAAAAA;
+    margin-top: 32px;
+    margin-right: 8px;
+}
+.agree .arrow {
+    width: 12px;
+    height: 8px;
+}
+.time {
+    margin-top: 74px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #BBBBBB;
+    text-align: center;
+}
